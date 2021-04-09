@@ -1,0 +1,42 @@
+@mixin font($font_name, $file_name, $weight, $style)
+  @font-face
+    font-family: $font_name
+    font-display: swap
+    src: url("../fonts/#{$file_name}.woff") format("woff"),
+    url("../fonts/#{$file_name}.woff2") format("woff2")
+    font-weight: #{$weight}
+    font-style: #{$style}
+
+*,*:before, *:after
+  box-sizing: border-box //не надо считать высотус учетом внутреннего отсупа
+html
+  width: 100%
+  max-width: 100%
+  overflow-x: hidden
+  scroll-behavior: smooth
+body
+  font-family: 'Montserrat-Regular', sans-serif
+  font-size: 16px
+  line-height: 22px
+  width: 100%
+  max-width: 100%
+  overflow-x: hidden
+  background: #ffffff
+h1,h2,h3,h4,h5,h6,p,ul
+  margin: 0
+button
+  &:focus, &:active
+    outline: none !important
+input
+  &:focus
+    outline: none !important
+a
+  text-decoration: none
+  color: #000000
+  cursor: pointer
+  &:focus
+    outline: none !important
+a, :before, :after, button, input
+  transition: all 0.4s ease-in-out
+li
+  list-style: none

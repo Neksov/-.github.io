@@ -1,0 +1,340 @@
+@media  screen and (max-width : 1910px)
+  .menu-nav-block-list__item
+    margin-right: 60px
+@media  screen and (max-width : 1800px)
+  .menu-nav-block-list__item
+    margin-right: 50px
+  .menu-logo
+    max-width: 263px
+@media  screen and (max-width : 1600px)
+  .container
+    max-width: 1600px
+  .menu-logo
+    max-width: 243px
+  .menu-nav-block-list
+    max-width: 872px
+    padding-left: 20px
+  .menu-nav-block-list__item
+    margin-right: 30px
+    font-size: 15px
+  .menu-message
+    max-width: 267px
+  .menu-nav-block-language
+    padding: 0px 20px
+    max-width: 150px
+
+@media  screen and (max-width : 1365px)
+  .container
+    max-width: 1600px
+  .menu-logo
+    max-width: 263px
+  .menu-nav-block-list
+    max-width: 500px
+  .menu-nav-block-list__item
+    margin-right: 10px
+    font-size: 12px
+  .menu-message
+    max-width: 267px
+  .menu-nav-block-language
+    padding: 0px 20px
+    max-width: 150px
+  .menu-nav-block-language__item
+    font-size: 12px
+  .menu
+    height: 70px
+  .menu-icon
+    z-index: 19
+    position: relative
+    display: none
+    width: 22px
+    height: 22px
+    cursor: pointer
+    display: flex
+    justify-content: center
+    align-items: center
+    right: 20px
+    top: 50%
+    transform: translateY(-50%)
+
+  .menu-icon-line
+    position: relative
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+  .menu-icon-line::before
+    position: absolute
+    left: 0
+    top: -8px
+    content: ''
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  .menu-icon-line::after
+    position: absolute
+    left: 0
+    top: 8px
+    content: ''
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  .menu-icon.menu-icon-active .menu-icon-line
+    background-color: transparent
+  .menu-icon.menu-icon-active .menu-icon-line::before
+    transform: rotate(45deg)
+    top: 0
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+  .menu-icon.menu-icon-active .menu-icon-line::after
+    transform: rotate(-45deg)
+    top: 0
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+  .menu-block
+    z-index: 9
+    display: flex
+    position: absolute
+    top: -238px
+    left: 0
+    width: 100%
+    padding-left: 0px
+    padding-top: 40px
+    padding-bottom: 0px
+    background-color: #ffffff
+    box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16)
+    transition: transform 0.4s ease-in
+  .menu-block--active
+    transform: translateY(105%)
+  .burgermenu
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+
+@media  screen and (max-width : 1023px)
+  .container
+    max-width: 1600px
+  .menu-logo
+    max-width: 200px
+  .menu-nav-block-list
+    max-width: 572px
+  .menu-nav-block-list__item
+    margin-right: 20px
+  .menu-message
+    max-width: 100%
+    display: flex
+    flex-direction: row
+    border-top: 1px solid #e5e5e5
+    height: 72px
+  .menu-nav-block-language
+    padding: 0px 20px
+    max-width: 150px
+  .menu-message-phone
+    a
+      font-size: 14px
+  .menu-message-mail
+    a
+      font-size: 14px
+  .menu-icon
+    z-index: 19
+    position: relative
+    display: none
+    width: 22px
+    height: 22px
+    cursor: pointer
+    display: flex
+    justify-content: center
+    align-items: center
+    right: 20px
+    top: 50%
+    transform: translateY(-50%)
+  .menu-message-phone
+    border-right: 1px solid #e5e5e5
+    border-bottom: none
+    height: 100%
+  .menu-icon-line
+    position: relative
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+  .menu-icon-line::before
+    position: absolute
+    left: 0
+    top: -8px
+    content: ''
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  .menu-icon-line::after
+    position: absolute
+    left: 0
+    top: 8px
+    content: ''
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  .menu-icon.menu-icon-active .menu-icon-line
+    background-color: transparent
+  .menu-icon.menu-icon-active .menu-icon-line::before
+    transform: rotate(45deg)
+    top: 0
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+  .menu-icon.menu-icon-active .menu-icon-line::after
+    transform: rotate(-45deg)
+    top: 0
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+  .menu-block
+    z-index: 9
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: absolute
+    top: -260px
+    left: 0
+    width: 100%
+    padding-left: 0px
+    padding-top: 10px
+    padding-bottom: 0px
+    background-color: #ffffff
+    box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16)
+    transition: transform 0.4s ease-in
+  .menu-block--active
+    transform: translateY(105%)
+  .burgermenu
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+@media  screen and (max-width : 767px)
+  .container
+    max-width: 1600px
+  .menu-logo
+    max-width: 255px
+  .menu-nav-block-list
+    max-width: 100%
+    flex-direction: column
+    padding-left: 0
+    border-right: none
+    li
+      height: 70px
+      border-bottom: 1px solid #e5e5e5
+      width: 100%
+      display: flex
+      align-items: center
+      justify-content: center
+  .menu-nav-info
+    flex-direction: column-reverse
+    height: 210px
+  .menu-nav-info-products
+    border-right: none
+    max-width: 100%
+    height: 70px
+  .menu-nav-info-input-item
+    border-bottom: 1px solid #e5e5e5
+  .menu-nav-info-input
+    height: 70px
+  .menu-nav-info-contacts
+    border-right: none
+    max-width: 100%
+    height: 70px
+    border-top: 1px solid #e5e5e5
+  .menu-nav-block-list__item
+    margin-right: 0px
+    font-size: 19px
+  .menu-message
+    max-width: 100%
+    display: flex
+    flex-direction: column
+    border-top: 1px solid #e5e5e5
+    height: 140px
+  .menu-nav-block-language
+    padding: 0px 20px
+    max-width: 100%
+    height: 70px
+    border-bottom: 1px solid #e5e5e5
+  .menu-nav-block-language__item
+    font-size: 19px
+  .menu-message-phone
+    border-right: none
+    border-bottom: 1px solid #e5e5e5
+    height: 70px
+    a
+      font-size: 19px
+  .menu-message-mail
+    a
+      font-size: 19px
+  .menu-nav-block
+    flex-direction: column-reverse
+    height: 100%
+  .menu-icon
+    z-index: 19
+    position: relative
+    display: none
+    width: 22px
+    height: 22px
+    cursor: pointer
+    display: flex
+    justify-content: center
+    align-items: center
+    right: 20px
+    top: 50%
+    transform: translateY(-50%)
+  .menu-icon-line
+    position: relative
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+  .menu-icon-line::before
+    position: absolute
+    left: 0
+    top: -8px
+    content: ''
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  .menu-icon-line::after
+    position: absolute
+    left: 0
+    top: 8px
+    content: ''
+    width: 22px
+    height: 2px
+    background-color: #3A4C66
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s
+  .menu-icon.menu-icon-active .menu-icon-line
+    background-color: transparent
+  .menu-icon.menu-icon-active .menu-icon-line::before
+    transform: rotate(45deg)
+    top: 0
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+  .menu-icon.menu-icon-active .menu-icon-line::after
+    transform: rotate(-45deg)
+    top: 0
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s
+  .menu-block
+    z-index: 9
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: absolute
+    top: -900px
+    left: 0
+    width: 100%
+    padding-left: 0px
+    padding-top: 10px
+    padding-bottom: 0px
+    background-color: #ffffff
+    box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16)
+    transition: transform 0.4s ease-in
+  .menu-block--active
+    transform: translateY(105%)
+  .burgermenu
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
