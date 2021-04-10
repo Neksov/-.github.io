@@ -814,6 +814,18 @@ li {
   color: #fff;
 }
 
+.map {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 500px;
+  margin: 50px auto;
+}
+
+.map-title {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
 @media screen and (max-width: 1910px) {
   .menu-nav-block-list__item {
     margin-right: 60px;
@@ -860,6 +872,14 @@ li {
 }
 
 @media screen and (max-width: 1365px) {
+  .header {
+    height: 50px;
+  }
+
+  .map {
+    max-width: 1000px;
+  }
+
   .container {
     max-width: 1600px;
   }
@@ -1025,6 +1045,14 @@ li {
 }
 
 @media screen and (max-width: 1023px) {
+  .header {
+    height: 50px;
+  }
+
+  .map {
+    max-width: 700px;
+  }
+
   .container {
     max-width: 1600px;
   }
@@ -1211,6 +1239,14 @@ li {
 }
 
 @media screen and (max-width: 767px) {
+  .map {
+    max-width: 280px;
+  }
+
+  .header {
+    height: 50px;
+  }
+
   .container {
     max-width: 1600px;
   }
